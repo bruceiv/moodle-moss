@@ -6,6 +6,7 @@
 ### Installation ###
 `moodle-moss` is written in Python 3, and requires the following packages (installable via `pip`):
 - `beautifulsoup4` (HTML parsing)
+- `lxml` (HTML parsing support)
 - `tqdm` (progress bars)
 - `yattag` (HTML creation)
 - `moodle-moss` also contains a vendored version of [`moss.py`](https://github.com/soachishti/moss.py), modified to support upload and download progress bars (included, no need for installation).
